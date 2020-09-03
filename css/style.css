@@ -1,0 +1,179 @@
+html {
+  font-size: 62.5%;
+  height: 100%;
+}
+body {
+  height: 100%;
+}
+.container {
+  width: 980px;
+  margin: 0 auto;
+  position: relative;
+  min-height: 100%;
+}
+/* 追記 */
+.header {
+  background-color: #F5B4B3;
+  height: 50px;
+  font-size: 1.5rem;
+}
+/* 追記 */
+  .logo_image {
+    width: 110px;
+    margin: 0;
+}
+/* 追記 */
+.top_menu li {
+  float: left;
+}
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.logo_image {
+  width: 110px;
+  float: left;
+  margin: 0;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+.top_menu li a {
+  color: #fff;
+  text-decoration: none;
+}
+.top_menu li a:hover {
+  text-decoration: underline;
+}
+.top_menu li {
+  float: left;
+  width: auto;
+}
+.top_menu li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+}
+ul.top_menu {
+  float: right;
+}
+.image_area{
+  width: 100%;
+}
+.side_menu li{
+  background-color: #F5B4B3;
+  height: 6rem;
+  margin-bottom: 10px;
+}
+.side_menu li a{
+  font-size:2rem;
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  padding: 2rem;
+}
+.banner img{
+  width: 100%;
+}
+.banner{
+  margin-top: 20px;
+}
+.side_menu{
+  width: 300px;
+  float: left;
+}
+.wrapper{
+  margin-top: 10px;
+  padding-bottom: 100px;
+}
+.side_menu li:hover {
+  opacity: 0.5;
+}
+.banner a:hover{
+  opacity: 0.5;
+}
+/* 追記分　tableの設定 */
+table{
+  border-spacing: 0px;
+  border-collapse: separate;
+  width: auto;
+  height: auto;
+}
+th{
+  width: 150px;
+  line-height: 7rem;
+  font-weight: bold;
+  text-align: right;
+  font-size: 150%;
+  padding: 0px 10px 0px 0px
+}
+}
+td{
+  width: 480px;
+  line-height: 7rem;
+}
+
+input.name{
+  width:480px;
+  height:1rem;
+ }
+
+input.form{
+  width:480px;
+  height:3rem;
+}
+.content label{
+  font-size: 150%
+}
+.submit {
+   font-size     : 1.5rem;
+   text-align    : center;
+   padding       : 10px 10px;
+   background    : #1a1aff;
+   color         : #ffffff;
+   line-height   : 2rem;
+   position: relative; left:65%;
+ }
+
+.submit:hover {
+   opacity       : 0.5;
+  }
+
+.footer{
+  background-color: #4D4D4D;
+  height: 100px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  display: table;
+
+}
+.footer p {
+  font-size: 1rem;
+  color: #fff;
+  text-align: center;
+  vertical-align: middle;
+  display: table-cell;
+}
+.banner2 {
+  margin-top: 10px;
+  display: table;
+}
+.banner2 p {
+display: table-cell;
+}
+.banner2 p img {
+width: 100%;
+}
+.side_menu .point {
+  background-color: #FCECEC;
+}
+.side_menu .point a {
+  color: #4D4D4D;
+}
